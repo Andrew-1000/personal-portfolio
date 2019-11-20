@@ -2,6 +2,8 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   background-image: url("../images/gradient-wallpaper-1.jpg") ;
+  background-repeat: 0, 0;
+  background-attachment: fixed;
 }
 
 * {
