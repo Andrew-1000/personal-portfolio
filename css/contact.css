@@ -10,11 +10,12 @@ img {
   border-radius: 10px;
   margin-left: 20px;
   margin-right: auto;
+  margin-top: 190px;
 }
 .column {
   width: 350px;
   float: left;
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
   margin-right: 10px;
   margin-left: 20px;
@@ -37,7 +38,7 @@ img {
 }
 .project {
   text-align: center;
-  margin-top: 1px;
+  margin-top: 10px;
   width: 79%;
   height:900px;
   background-image: url("../images/myproject.png");
@@ -67,4 +68,33 @@ input {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   margin-top: 5px;
+}
+.page {
+  text-align: center;
+  margin-top: 1px;
+  width: 79%;
+  height:900px;
+  background-size: cover;
+  background-color: rgba(127, 255, 212, 0.329);
+  margin-right: 175px;
+  margin-left: 180px;
+  margin-bottom: 90px;
+  line-height: 30px;
+  border-radius: 10px;
+  opacity: 7.2;
+  filter: alpha(opacity=80);
+  color: white;
+  float: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  
+}
+.fpage {
+  margin-top: 50px;
+}
+.img2 {
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 10px;
 }
