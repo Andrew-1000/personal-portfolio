@@ -1,0 +1,28 @@
+.sidebar {
+  width: 40%;
+  height: 70%;
+  float: left;
+  background-color: rgba(71,71,24, 0.589);
+  border-radius: 10px; 
+}
+img {
+  float: left;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.column {
+  width: 350px;
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.font {
+  color: black;
+}
+.h1 {
+  color: darkred;
+  font-style: italic;
+}
