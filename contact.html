@@ -22,29 +22,32 @@
         </ul>
     </div>
     <div class="contact">
-      <p class="contact-head">Contact details</p>  
-      <form action="#">
-        <div class="cont-div">
-          <label for="input-text" >Name</label>
-        </div>
-        <div class="cont-div">
-            <input type="text" size="20"> 
-        </div>
-        <div class="cont-div">
-          <label for="input-text" >Message</label>  
-        </div>
-        <div class="cont-div">
-            <input type="text" size="20">  
-        </div>
-        <div class="cont-div">
-          <input type="button" class="button" width = "10px" height = "5px" value = "Send Message">
-        </div>
-        
-      </form>
-      
-
-      
+      <div class="container">
+        <header class="major">
+          
+        </header>
+        <form method="post" action="#">
+          <div class="row uniform">
+            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+            <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+            <div class="12u$">
+              <ul class="actions">
+                <li><input type="submit" value="Send Message" class="special" /></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>      
     </div>
   </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="assets/js/main.js"></script>
+
 </body>
 </html> 

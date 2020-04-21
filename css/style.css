@@ -4,61 +4,70 @@
   body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background-image: url("../images/gradient-wallpaper-1.jpg") ;
+    background-image: url("../images/gradient-wallpaper-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
-  
+
   }
+
   * {
     padding: 0px;
     margin: 0px;
   }
+
   #div1 {
     width: 100%;
     height: 80px;
   }
+
   #div2 {
-    background: rgba(42,92,31, 0.55);
+    background: rgba(42, 92, 31, 0.55);
     height: 80px;
     width: 100%;
     line-height: 80px;
     opacity: 0.5;
-    filter:alpha(opacity = 70);
+    filter: alpha(opacity=70);
   }
+
   #div2 h1 {
     float: left;
     font-weight: 400;
-    color:white;
+    color: white;
     cursor: pointer;
     margin-left: 20px;
     font-family: 'Concert One', cursive;
     margin-top: 1px;
   }
+
   #div2 ul {
     float: right;
-    
+
     margin-right: 80px;
     line-height: 40px;
     padding-top: 40px;
   }
-  
+
   #div2 ul li {
-    list-style-type: none ;
+    list-style-type: none;
     display: inline-block;
   }
+
   #div2 ul li a {
     padding: 40px;
     text-decoration: none;
     color: whitesmoke;
   }
+
   #div2 ul li:hover {
-    background:darkslateblue;
+    background: darkslateblue;
     transition: all 0.90s;
   }
+
   #div2 ul li:hover ul {
     display: block;
     float: right;
@@ -67,35 +76,41 @@
     margin-top: -40px;
     text-align: left;
   }
+
   #div2 ul ul {
     display: none;
     width: 156px;
     height: 10px;
     position: absolute;
   }
+
   #div2 ul li li {
     background: black;
     display: block;
     padding: 2px;
   }
+
   #div2 ul li li {
     padding: 10px;
   }
+
   #div2 ul li li:hover {
     background: #467c08;
     transition: all 0.75s;
   }
-  #div2 ul ul li :hover ul{
+
+  #div2 ul ul li :hover ul {
     display: block;
     float: right;
     transition: all 0.05s;
     text-align: right;
   }
+
   #div3 {
     text-align: center;
     margin-top: 1px;
     width: 79%;
-    height:900px;
+    height: 900px;
     background: #83a0ad8c;
     margin-right: 375px;
     margin-left: 280px;
@@ -108,6 +123,7 @@
     float: center;
     font-family: 'Quicksand', sans-serif;
   }
+
   #div4 {
     text-align: center;
     margin-top: 10px;
@@ -117,22 +133,24 @@
     margin-left: auto;
     line-height: 30px;
     border-radius: 10px;
-    
+
   }
-  .contact  {
+
+  .contact {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 200px;
     width: 75%;
-    height: 300px;
+    height: 500px;
     border-radius: 10px;
-    color:antiquewhite;
+    color: antiquewhite;
     background: rgba(1, 41, 41, 0.328);
     margin-left: auto;
     margin-right: auto;
     margin: auto;
     font-family: 'Calistoga', cursive;
-  
+
   }
+
   .class {
     background: rgba(5, 92, 92, 0);
     width: 50%;
@@ -145,12 +163,13 @@
     margin: auto;
     color: azure;
     font-family: 'Calistoga', cursive;
-  
+
   }
+
   img {
     border-radius: 10px;
   }
-  
-  
-  
-  }
+
+
+
+}
